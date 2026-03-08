@@ -1,0 +1,75 @@
+/* ═══════════════════════════════════════════════════════════════
+   theme.css — full design token system for both themes
+   ═══════════════════════════════════════════════════════════════ */
+
+:root {
+  /* ── Surfaces ── */
+  --bg-app:         #080f1e;
+  --bg-toolbar:     linear-gradient(180deg, #0f172a, #111827);
+  --bg-panel:       linear-gradient(180deg, #0f172a, #0c1220);
+  --bg-modal:       linear-gradient(145deg, #1a2035, #111827);
+  --bg-card:        #0d1221;
+  --bg-input:       #0d1526;
+  --bg-node:        #131c30;
+  --bg-node-body:   #0d1526;
+  --bg-hover:       #1e2d45;
+
+  /* ── Borders ── */
+  --border:         #1e2d45;
+  --border-subtle:  #162030;
+
+  /* ── Text ── */
+  --text-primary:   #ccd6f6;
+  --text-secondary: #7a8fb5;
+  --text-dim:       #4a5878;
+  --text-hint:      #2a3a55;
+
+  /* ── Handle ── */
+  --handle-border:  #1a2035;
+
+  /* ── Shadows ── */
+  --shadow-node:    0 4px 24px #0008;
+  --shadow-panel:   0 24px 64px #000c;
+  --shadow-sm:      0 2px 12px #0005;
+
+  /* ── Node internals ── */
+  --node-border:    #1e2d45;
+  --node-text:      #ccd6f6;
+  --node-input-bg:  #0d1526;
+}
+
+[data-theme="light"] {
+  /* ── Surfaces ── */
+  --bg-app:         #eef2f9;
+  --bg-toolbar:     linear-gradient(180deg, #f8faff, #eef2f9);
+  --bg-panel:       linear-gradient(180deg, #f8faff, #f0f4fb);
+  --bg-modal:       linear-gradient(145deg, #ffffff, #f4f7ff);
+  --bg-card:        #f0f4fb;
+  --bg-input:       #f0f4fb;
+  --bg-node:        #ffffff;
+  --bg-node-body:   #f8faff;
+  --bg-hover:       #e2e8f4;
+
+  /* ── Borders ── */
+  --border:         #c8d8e8;
+  --border-subtle:  #dde7f2;
+
+  /* ── Text ── */
+  --text-primary:   #1e293b;
+  --text-secondary: #475569;
+  --text-dim:       #64748b;
+  --text-hint:      #94a3b8;
+
+  /* ── Handle ── */
+  --handle-border:  #ffffff;
+
+  /* ── Shadows ── */
+  --shadow-node:    0 4px 20px rgba(0,0,0,0.10);
+  --shadow-panel:   0 16px 48px rgba(0,0,0,0.14);
+  --shadow-sm:      0 2px 8px rgba(0,0,0,0.08);
+
+  /* ── Node internals ── */
+  --node-border:    #c8d8e8;
+  --node-text:      #1e293b;
+  --node-input-bg:  #f0f4fb;
+}
